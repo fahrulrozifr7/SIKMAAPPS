@@ -3,7 +3,7 @@ const jwt = require('jsonwebtoken');
 const { createUser, findUserByEmail } = require('../models/userModel');
 
 // Daftar Certification ID yang diperbolehkan
-const validCertificationIds = ["SIKMA1234", "SIKMA5678", "SIKMA91011"]; // Ganti dengan daftar yang sesuai
+const validCertificationIds = ["xxxxx", "xxxxx", "xxxxx"]; // Ganti dengan daftar yang sesuai
 
 // Register
 const registerController = async (req, res) => {
